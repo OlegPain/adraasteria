@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css?_v=20220414195622">
+	<meta name="description" content="">
+	<!--описание сайта    SEO-->
+	<meta name="keywords" content="">
+	<!--ключевые слова при поиске   SEO-->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js?_v=20220414195622"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js?_v=20220414195622"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollToPlugin.min.js?_v=20220414195622"></script>
+</head>
+
+<body>
+	<div class="background_animation">
+		<div class="background-img"></div>
+		<div class="animation_logo">
+			<img class="logo-animated" src="img/logo.svg" alt="Adrasteia">
+		</div>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header_line">
+					<div class="header_logo"><img src="img/logo.svg" alt="Adrasteia"></div>
+
+					<div class="menu_burger">
+						<span></span>
+					</div>
+					<div class="menu_body_wrap ">
+						<div class="menu_content_container">
+							<nav class="menu_body">
+								<div class="menu_close"></div>
+								<div class="menu_contain">
+									<div class="menu_category_block">
+										<p class="menu_category">Главная</p>
+										<p class="menu_category">О нас</p>
+										<p class="menu_category">Услуги</p>
+										<p class="menu_category">Как мы работаем</p>
+										<p class="menu_category">Клиенты</p>
+										<p class="menu_category">Контакты</p>
+									</div>
+								</div>
+								<button id="btn-block_header" type="button" class="btn-block_header _btn-application" data-popup="header">
+									<p class="btn-block-txt">Оформиить заявку</p>
+									<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+								</button>
+							</nav>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="site-title-block __block">
+				<div class="site-title-block__container">
+					<div class="site-title-box">
+						<h1 class="site-title"> <span class="site-title-animation-text animatedText">Детективно-информационное</span><span class="txt-grey">агентство</span></h1>
+						<p class="title-txt">Владеешь информацией - владеешь миром</p>
+					</div>
+					<button data-popup="main" type="button" class="title-block-button _btn-application">
+						<p class="btn-block-txt ">Оформиить заявку</p>
+						<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+					</button>
+					<div class="site-title-img-box">
+						<div class="site-title-img-box-icons-animation-block">
+							<div id="mail" class="icons-animated animated">
+								<i class="fa fa-solid fa-at"></i>
+							</div>
+							<div id="message" class="icons-animated animated">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+							<div id="eye" class="icons-animated animated">
+								<i class="fa fa-solid fa-eye"></i>
+							</div>
+							<div id="phone" class="icons-animated animated">
+								<i class="fa fa-solid fa-phone"></i>
+							</div>
+
+							<div id="data" class="icons-animated animated">
+								<i class="fa fa-solid fa-database"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="messanger_block">
+						<div class="messanger_box">
+							<i class="fa fa-whatsapp" aria-hidden="true"></i>
+							<a href="">открыть чат</a>
+						</div>
+						<div class="messanger_box">
+							<a href="mailto:Adrasteia@mail.com">Adrasteia@mail.com</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about_block __block">
+				<div class="about_block__container">
+					<div class="title_block">
+						<h2 class="title">Кто мы?</h2>
+						<p class="text-title">О нас не пишут рейтинговые агентства и поисковые системы</p>
+					</div>
+					<div class="about-content-block">
+						<div class="about-content-box">
+
+							<div id="about-content-notes" class="about-content-item-box">
+								<div class="about-content-notes-icon-line">
+									<div class="about-content-notes-icon-one-box">
+										<i class="fa fa-solid fa-paperclip"></i>
+										<p>Заметка</p>
+									</div>
+
+									<div class="about-content-notes-icon-two-box">
+										<i class="fa fa-edit" aria-hidden="true"></i>
+										<i class="fa fa-close" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="about-content-item-text-box">
+									<div class="about-content-item-text-box">
+										<p class="about-content-item-num">1.</p>
+										<p class="about-content-item-text">Работаем только по рекомендации от "своих"</p>
+									</div>
+								</div>
+								<div class="icon-line">
+									<img src="img/Icon.svg" alt="">
+								</div>
+							</div>
+							<div id="about-content-people " class="about-content-item-box">
+								<img src="img/Polaroid 600 Format.svg" alt="">
+								<div class="about-content-item-text-box">
+									<p class="about-content-item-num">2.</p>
+									<p class="about-content-item-text">Применяем агентскую сеть по всему миру</p>
+								</div>
+
+							</div>
+							<div id="about-content-record" class="about-content-item-box">
+								<div class="about-content-item-text-box">
+									<p class="about-content-item-num">3.</p>
+									<p class="about-content-item-text">Используем арсенал профессиональных технических средств</p>
+								</div>
+								<img src="img/wrapper.svg" alt="">
+							</div>
+							<div id="about-content-star" class="about-content-item-box">
+								<img src="img/star.svg" alt="">
+								<div class="about-content-item-text-box">
+									<p class="about-content-item-num">4.</p>
+									<p class="about-content-item-text">Считаем что репутация важнее денег</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="about-content-pints"></div>
+					</div>
+				</div>
+
+			</section>
+			<section class="services_block __block">
+				<div class="services_block__container">
+					<div class="services_block-title-block">
+						<h2 class="title">Услуги</h2>
+						<p class="text-title">Когда другие бессильны - мы делаем</p>
+					</div>
+					<div class="services_ swiper_container">
+						<div class="services_slider swiper">
+							<div class="services_slide_item_container swiper-wrapper">
+								<div class="services_slide_item swiper-slide">
+									<div class="services_item_contain">
+										<div class="services_item_img-box"><img src="img/slider/Group 1503.svg" alt=""></div>
+										<div class="services_item_content-box">
+											<div class="services_item_title-box">
+												<h2>Работа с информацией</h2>
+											</div>
+											<div class="services_item_text-box">
+												<ul class="services_item_text-box-list">
+													<li class="services_item_text-box-list-item">Поиск и проверка информации</li>
+													<li class="services_item_text-box-list-item">Составление персонального досье</li>
+													<li class="services_item_text-box-list-item"></li>Работа с репутацией(защита персональных данных)</li>
+													<li class="services_item_text-box-list-item">Информация по номеру телефона</li>
+												</ul>
+											</div>
+											<button data-popup="main" type="button" class="services_item_btn-box _btn-application">
+												<p class="btn-block-txt ">Оформиить заявку</p>
+												<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+											</button>
+										</div>
+
+									</div>
+								</div>
+								<div class="services_slide_item swiper-slide">
+									<div class="services_item_contain">
+										<div class="services_item_img-box"><img src="img/slider/Group 1504.svg" alt=""></div>
+										<div class="services_item_content-box">
+											<div class="services_item_title-box">
+												<h2>Розыск</h2>
+											</div>
+											<div class="services_item_text-box">
+												<ul class="services_item_text-box-list">
+													<li class="services_item_text-box-list-item">Розыск должника/мошенника</li>
+													<li class="services_item_text-box-list-item">Поиск пропавших людей</li>
+													<li class="services_item_text-box-list-item">Поиск родственников</li>
+													<li class="services_item_text-box-list-item">Поиск имущества</li>
+												</ul>
+											</div>
+											<button data-popup="main" type="button" class="services_item_btn-box _btn-application">
+												<p class="btn-block-txt ">Оформиить заявку</p>
+												<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+											</button>
+										</div>
+
+									</div>
+								</div>
+								<div class="services_slide_item swiper-slide">
+									<div class="services_item_contain">
+										<div class="services_item_img-box"><img src="img/slider/Group 1505.svg" alt=""></div>
+										<div class="services_item_content-box">
+											<div class="services_item_title-box">
+												<h2>Защита</h2>
+											</div>
+											<div class="services_item_text-box">
+												<ul class="services_item_text-box-list">
+													<li class="services_item_text-box-list-item">Защита при шантаже и угрозах</li>
+													<li class="services_item_text-box-list-item">Безопасность семьи и детей</li>
+													<li class="services_item_text-box-list-item">Помощь в подготовке и сопровождение в поездках.</li>
+												</ul>
+											</div>
+											<button data-popup="main" type="button" class="services_item_btn-box _btn-application">
+												<p class="btn-block-txt ">Оформиить заявку</p>
+												<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+											</button>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="services_slide_item swiper-slide">
+									<div class="services_item_contain">
+										<div class="services_item_img-box"><img src="img/slider/Group 1492.svg" alt=""></div>
+										<div class="services_item_content-box">
+											<div class="services_item_title-box">
+												<h2>Сопровождение гражданских и уголовных дел</h2>
+											</div>
+											<div class="services_item_text-box">
+												<ul class="services_item_text-box-list">
+													<li class="services_item_text-box-list-item">Оказание юридической помощи</li>
+													<li class="services_item_text-box-list-item">Частное расследование преступлений </li>
+													<li class="services_item_text-box-list-item">Содействие правоохранительным органам</li>
+													<li class="services_item_text-box-list-item">Досудебное урегулирование конфликтов. </li>
+												</ul>
+											</div>
+											<button data-popup="main" type="button" class="services_item_btn-box _btn-application">
+												<p class="btn-block-txt ">Оформиить заявку</p>
+												<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+											</button>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="services_slide_item swiper-slide">
+									<div class="services_item_contain">
+										<div class="services_item_img-box"><img src="img/slider/Group 1469.svg" alt=""></div>
+										<div class="services_item_content-box">
+											<div class="services_item_title-box">
+												<h2>Бизнес-разведка</h2>
+											</div>
+											<div class="services_item_text-box">
+												<ul class="services_item_text-box-list">
+													<li class="services_item_text-box-list-item">Проверка контрагентов</li>
+													<li class="services_item_text-box-list-item">Досье на компанию</li>
+													<li class="services_item_text-box-list-item">Внештатная служба безопасности</li>
+													<li class="services_item_text-box-list-item">Корпоративное расследование</li>
+												</ul>
+											</div>
+											<button data-popup="main" type="button" class="services_item_btn-box _btn-application">
+												<p class="btn-block-txt ">Оформиить заявку</p>
+												<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+											</button>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="services_slide_item swiper-slide">
+									<div class="services_item_contain">
+										<div class="services_item_img-box"><img src="img/slider/Group 1468.svg" alt=""></div>
+										<div class="services_item_content-box">
+											<div class="services_item_title-box">
+												<h2>Слежка и наблюдение</h2>
+											</div>
+											<div class="services_item_text-box">
+												<ul class="services_item_text-box-list">
+													<li class="services_item_text-box-list-item">Наружное наблюдение</li>
+													<li class="services_item_text-box-list-item">Контрнаблюдение</li>
+													<li class="services_item_text-box-list-item">Проверка образа жизни ребенка</li>
+												</ul>
+											</div>
+											<button data-popup="main" type="button" class="services_item_btn-box _btn-application">
+												<p class="btn-block-txt ">Оформиить заявку</p>
+												<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+											</button>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="services_swiper-button-box">
+							<div class="services_swiper-button-prev">
+								<i class="fa fa-arrow-left" aria-hidden="true"></i>
+							</div>
+							<div class="services_swiper-button-next">
+								<i class="fa fa-arrow-right" aria-hidden="true"></i>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section class="work_block __block">
+				<div class="work_block__container">
+					<div class="work_title-box">
+						<div class="title_block">
+							<h2 class="title">Как мы работаем</h2>
+						</div>
+						<div class="work_title-box-item">
+							<div class="work_title-box-item-num txt-grey">01</div>
+							<div class="work_title-box-item-img-box">
+								<img class="work_title-box-item-img-mobile" src="img/work/1.svg" alt="box">
+								<img class="work_title-box-item-img-desktop" src="img/work/arr.svg" alt="arrow">
+							</div>
+							<div class="work_title-box-item-text-box">
+								<p class="txt-grey">Разбираемся в ситуации</p>
+							</div>
+						</div>
+						<div class="work_title-box-item">
+							<div class="work_title-box-item-num txt-grey">02</div>
+							<div class="work_title-box-item-img-box">
+								<img class="work_title-box-item-img-mobile" src="img/work/2.svg" alt="box">
+								<img class="work_title-box-item-img-desktop" src="img/work/note.svg" alt="note">
+							</div>
+							<div class="work_title-box-item-text-box">
+								<p class="txt-grey">Составляем план действий</p>
+							</div>
+						</div>
+						<div class="work_title-box-item">
+							<div class="work_title-box-item-num txt-grey">03</div>
+							<div class="work_title-box-item-img-box">
+								<img class="work_title-box-item-img-mobile" src="img/work/3.svg" alt="box">
+								<img class="work_title-box-item-img-desktop" src="img/work/check.svg" alt="check">
+							</div>
+							<div class="work_title-box-item-text-box">
+								<p class="txt-grey ">Предоставляем результат</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="work-content-box">
+						<div class="work-content-box-contain">
+							<div id="box-1" class="work-content-box-contain-item">
+								<img class="work-content-box-contain-item-img-icon" src="img/work/-_.svg" alt="icon">
+								<img class="work-content-box-contain-item-img-box" src="img/work/box.svg" alt="box">
+							</div>
+							<div id="box-2" class="work-content-box-contain-item">
+								<img class="work-content-box-contain-item-img-icon" src="img/work/GroupNote.svg" alt="icon">
+								<img class="work-content-box-contain-item-img-box" src="img/work/box.svg" alt="box">
+							</div>
+							<div id="box-3" class="work-content-box-contain-item">
+								<img class="work-content-box-contain-item-img-icon" src="img/work/GroupCheck.svg" alt="icon">
+								<img class="work-content-box-contain-item-img-box" src="img/work/boxBlue.svg" alt="box">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="clients_block __block">
+				<div class="clients_block__container">
+					<div class="title_block">
+						<h2 class="title">Наши клиенты</h2>
+					</div>
+					<div class="clients_block_content_block">
+						<div class="clients_block_content_block-item">
+							<div class="clients_block_content_block-item-icon-box">
+								<img src="img/clients/Icon.svg" alt="megaphone">
+							</div>
+							<div class="clients_block_content_block-item-text-box">Политики</div>
+						</div>
+						<div class="clients_block_content_block-item">
+							<div class="clients_block_content_block-item-icon-box">
+								<img src="img/clients/case.svg" alt="case">
+							</div>
+							<div class="clients_block_content_block-item-text-box">Бизнес</div>
+						</div>
+						<div class="clients_block_content_block-item">
+							<div class="clients_block_content_block-item-icon-box">
+								<img src="img/clients/Icon (1).svg" alt="megaphone">
+							</div>
+							<div class="clients_block_content_block-item-text-box">Селебрити</div>
+						</div>
+						<div class="clients_block_content_block-item">
+							<div class="clients_block_content_block-item-icon-box">
+								<img src="img/clients/Icon (2).svg" alt="megaphone">
+							</div>
+							<div class="clients_block_content_block-item-text-box">Частные лица</div>
+						</div>
+					</div>
+					<div class="clients_block_text-box">
+						<p class="txt-grey">Строго соблюдаем конфиденциальностьи дорожим репутацией каждого клиента</p>
+					</div>
+				</div>
+			</section>
+			<section class="form_block __block">
+				<div class="form_block__container">
+					<div class="title_block">
+						<h2 class="title">Связаться с нами</h2>
+
+					</div>
+
+					<form class="form_box" action="url">
+						<div class="form_item-box">
+							<label for="userName">Меня зовут</label>
+							<input data-required="name" data-validate="" id="userName" class="input_form" type="text" name="name" placeholder="Караникола Евгений">
+						</div>
+						<div class="form_item-box">
+							<label for="userPhone">Мой номер</label>
+							<input data-required="phone" data-validate="" id="userPhone" class="input_form" type="text" name="phone" placeholder="+7 (___) ___-____.">
+						</div>
+
+						<div class="form_item-box">
+							<label for="userMail">Мой email</label>
+							<input data-required="email" data-validate="" class="input_form" id="userMail" type="text" name="mail" placeholder="example@gmail.com">
+						</div>
+						<div class="form_icon-btn-box">
+							<input data-required="" data-validate="" id="check" class="form_icon-btn btn-check" type='checkbox' checked>
+							<label for="check" class="form_icon-btn-txt">Согласие на обработку персональных данных</label>
+
+						</div>
+						<button type="submit" class="form-block-button _btn-application">
+							<p class="btn-block-txt ">Оформиить заявку</p>
+							<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+						</button>
+					</form>
+					<div class="messenger_block">
+						<div class="messenger_box">
+							<div class="messenger_box-item">
+								<i class="fa fa-whatsapp" aria-hidden="true"></i>
+								<a href="#" class="messenger_box-item-txt">whatsapp</a>
+							</div>
+							<div class="messenger_box-item">
+								<i class="fa fa-telegram" aria-hidden="true"></i>
+								<a href="#" class="messenger_box-item-txt">telegram</a>
+							</div>
+							<div class="messenger_box-item">
+
+								<a href="mailto:Adrasteia@mail.com" class="messenger_box-item-txt">Adrasteia@mail.com</a>
+							</div>
+						</div>
+						<div class="privacy">
+							<a href="">Политика конфиденциальности</a>
+						</div>
+						<div class="ear">© 2022</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><i class="fa fa-close" aria-hidden="true"></i></button>
+
+				<div class="popup_block__container">
+					<div class="title_block">
+						<h2 class="title">Оставить заявку</h2>
+
+					</div>
+
+					<form class="form_box" action="url">
+						<div class="form_item-box">
+							<label for="userNam">Меня зовут</label>
+							<input data-required="name" data-validate="" id="userNam" class="input_form" type="text" name="name" placeholder="Караникола Евгений">
+						</div>
+						<div class="form_item-box">
+							<label for="userPhon">Мой номер</label>
+							<input data-required="phone" data-validate="" id="userPhon" class="input_form" type="text" name="phone" placeholder="+7 (___) ___-____.">
+						</div>
+
+						<div class="form_item-box">
+							<label for="userMaill">Мой email</label>
+							<input data-required="email" data-validate="" class="input_form" id="userMaill" type="text" name="mail" placeholder="example@gmail.com">
+						</div>
+						<div class="form_icon-btn-box">
+							<input data-required="" data-validate="" id="checkk" class="form_icon-btn btn-check" type='checkbox' checked>
+							<label for="checkk" class="form_icon-btn-txt">Согласие на обработку персональных данных</label>
+
+						</div>
+						<button type="submit" class="form-block-button _btn-application">
+							<p class="btn-block-txt ">Оформиить заявку</p>
+							<div class="btn-block-button"><i class="fa fa-plus" aria-hidden="true"></i></div>
+						</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.js?_v=20220414195622"></script>
+	<script src="https://kit.fontawesome.com/91d8dd3970.js?_v=20220414195622" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
